@@ -1,0 +1,115 @@
+1. write a python script to add comments and print "Learning Python" on the screen.
+
+#python basics
+print("\"Learning Python\"")
+
+
+
+2. write a python script to add multiline comments and print values of four variables each in a new line. variable contains any value.
+
+'''
+my name is sandhya
+i am pursuing b.tech
+'''
+a=9
+b="ram"
+c=5.6
+d=True
+print(a,b,c,d)
+
+
+
+
+3. write a python script to print types of variables.creat 5 variables each of them containing different types of data.
+
+a=35
+b=True
+c="MySirG"
+d=5.46
+e=3+4j
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+
+
+
+4. write a python script to print the id of two variables containing the same integer value.
+
+x=20
+y=20
+id(x)
+id(y)
+
+
+
+5. creat four varibles in a python script and assign values of different data types to them. write a python script to print values its type and id of each variable.
+
+p=34
+q=5.67
+r=False
+s="sandhya"
+print(p,q,r,s)
+print(type(p))
+print(type(q))
+print(type(r))
+print(type(s))
+print(id(p))
+print(id(q))
+print(id(r))
+print(id(s))
+
+
+
+6. write a python script to print the all keywords.
+
+import keyword
+print(keyword.kwlist)
+
+
+
+7. on python shell use help() function and display the list of keywords.
+
+help()
+help> keywords
+
+Here is a list of the Python keywords.  Enter any keyword to get more help.
+
+False               class               from                or
+None                continue            global              pass
+True                def                 if                  raise
+and                 del                 import              return
+as                  elif                in                  try
+assert              else                is                  while
+async               except              lambda              with
+await               finally             nonlocal            yield
+break               for                 not   
+
+
+
+8. creat two python files A0.py and A1.py.creat a variable in A1.py and assihn some value to it.write a python script to import A1 module in A0 module and print value of the  variable created in A1.py.
+
+import A1
+print(A1.x)
+
+
+
+9. name the keywords, used as data in python.
+
+True
+False
+None
+
+
+
+10. write a python script to display the current date and time. first creat variables to store date and time in proper format(like:-13-08-2022 and 9:00 pm).
+
+from datetime import datetime
+dt=datetime.today();
+d1=dt.strftime("%d-%m-%Y and %I:%M %p")
+print(d1)
+
+              
+
+
